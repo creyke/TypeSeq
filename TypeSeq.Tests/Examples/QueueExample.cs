@@ -11,7 +11,7 @@ namespace TypeSeq.Tests.Examples
 
         [Theory]
         [InlineData(3)]
-        public void Can(int count)
+        public void CanEnqueueAndDequeue(int count)
         {
             for (int i = 0; i < count; i++)
             {
